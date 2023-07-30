@@ -13,7 +13,7 @@ spec:
   source:
     path: manifests/resources
     repoURL: https://github.com/niteshlaller89/argocd-flow.git
-    targetRevision: master
+    targetRevision: main
   syncPolicy:
     automated:
       prune: true
