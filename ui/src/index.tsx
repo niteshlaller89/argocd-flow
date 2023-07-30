@@ -29,7 +29,7 @@ const MAP_STATUS = {
 };
 
 export const Extension = (props: { tree: Tree; resource: ApplicationSet }) => {
-  console.log(props);
+  console.log("------------------ Extension Loading with props: ------------------", props);
 
   var items = props.tree.nodes.filter((item) =>
     // filter the one owned by the ApplicationSet
