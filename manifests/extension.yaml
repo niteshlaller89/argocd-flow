@@ -11,3 +11,4 @@ spec:
   sources:
     - web:
         url: https://github.com/niteshlaller89/argocd-flow/blob/main/ui/dist/extension.tar
+          #https://github.com/niteshlaller89/argocd-flow/blob/main/ui/dist/extension.tar

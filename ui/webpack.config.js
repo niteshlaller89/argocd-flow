@@ -9,8 +9,10 @@ const config = {
   output: {
     filename: 'extensions.js',
     path: __dirname + `/dist/resources/${groupKind}/ui`,
-    libraryTarget: 'window',
-    library: ['extensions', 'resources', groupKind],
+    library: {
+      name: ['extensions', 'resources', groupKind],
+      type: 'window'
+    },
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.json', '.ttf', '.scss'],
@@ -38,7 +40,7 @@ const config = {
       },
     ],
   },
-  mode: "development",
+  mode: "production",
 };
 
 module.exports = config;
