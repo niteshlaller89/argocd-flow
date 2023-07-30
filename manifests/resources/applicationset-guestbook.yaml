@@ -15,9 +15,9 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/argoproj/argocd-example-apps.git
-        targetRevision: master
-        path: guestbook
+        repoURL: https://github.com/niteshlaller89/argocd-flow.git
+        targetRevision: main
+        path: app
       destination:
         server: '{{.url}}'
         namespace: argocd
